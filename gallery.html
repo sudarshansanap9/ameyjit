@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Classic Interio</title>
+  
+ 
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" type="image/png" href="images/fevicon.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> 
+  
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+
+  <link rel="stylesheet" href="fonts/icomoon/style.css">
+
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+   <link rel="stylesheet" href="style.css">
+    
+    
+    
+
+
+
+<style>
+
+/* home */
+.homepage {
+    background-image: url(images/bathroom/show-background-bathroom.jpg);/* Replace 'background.jpg' with your image */
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff; /* Change text color */
+    text-align: center;
+}
+.homepage-heading {
+    font-size: 65px;
+    margin-bottom: 20px;
+}
+/* cards */
+.card {
+      width: 85%;
+      margin: 10px auto;
+      border-radius: 10px;
+      overflow: hidden;
+      text-align: center;
+    }
+    .card img {
+      width: 100%;
+      height: auto;
+      transition: transform 0.2s;
+    }
+    .card h5{
+        color: black;
+        text-align: center;
+    }
+    .card a{
+      text-decoration: none;
+    }
+   
+    .card:hover img {
+      transform: scale(1.1);
+    }
+    .card-body {
+      padding: 20px;
+      background-color: #f8f9fa;
+    }
+    @media (max-width: 768px) {
+      .card {
+        width: 90%;
+      }
+    }
+ 
+</style>
+</head>
+<body>
+  <script>
+    AOS.init({
+duration: 1800 // Duration in milliseconds
+});
+  </script>
+    <!-- naavbar -->  
+ 
+
+
+
+    <div class="site-mobile-menu site-navbar-target">
+      <div class="site-mobile-menu-header">
+        <div class="site-mobile-menu-close mt-3">
+          <span class="icon-close2 js-menu-toggle"></span>
+        </div>
+      </div>
+      <div class="site-mobile-menu-body"></div>
+    </div>
+
+
+    <div class="top-bar" data-aos="fade-right">
+      <div class="container">
+        <div class="row"  style="font-size: 15px;">
+          <div class="col-12">
+            <a href="mailto:principaljitnashik@gmail.comm" class=""><span class="mr-2  icon-envelope-open-o"></span> <span class="d-none d-md-inline-block"> principaljitnashik@gmail.com</span></a>
+            <span class="mx-md-2 d-inline-block"></span>
+            <a href="tel:0253-2970077" class=""><span class="mr-2  icon-phone"></span> <span class="d-none d-md-inline-block"> 0253-2970077</span></a>
+
+          
+            <div class="float-right" style="font-size: 13px;">
+
+              <a href="CONTACT.html" class="">CONTACT |</a>
+              
+              <a href="alumni.html" class="">ALUMNI |</a>
+              
+              <a target="_blank" href="gallery.html" class="">GALLERY</a>
+              
+              
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+
+    <header class="site-navbar js-sticky-header site-navbar-target" role="banner">
+
+      <div class="container" >
+        <div class="row align-items-center position-relative" >
+
+
+          <div class="site-logo">
+            <a href="index.html" class="text-black"><img src="./assets/img/index/jit-white-logo.png" alt="Logo" width="150px" height="70px"></a>
+          </div>
+
+          <div class="col-12" >
+            <nav class="site-navigation text-right ml-auto " role="navigation">
+
+              <ul class="site-menu main-menu js-clone-nav ml-auto d-none d-lg-block">
+                  <li class="nav-item">
+                      <a class="nav-link" href="index.html">HOME</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown-2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          ABOUT
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown-2" >
+                          <a class="dropdown-item" href="about/aboutjes.html">About JES</a>
+                          <a class="dropdown-item" href="about/aboutjit.html">About JIT</a>
+                          <a class="dropdown-item" href="about/vision.html">Vision and Mission</a>
+                          <a class="dropdown-item" href="about/core.html">Core Values</a>
+                          <a class="dropdown-item" href="about/principal.html">Principal Desk</a>
+                          <a class="dropdown-item" href="about/committee.html">Committee</a>
+                      </div>
+                  </li>
+                  <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown-2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          ADMISSION
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown-2">
+                          <a class="dropdown-item" href="admission/firstyear.html">First Year Engineering</a>
+                          <a class="dropdown-item" href="admission/second.html">DSY (Against Vacancies)</a>
+                          <a class="dropdown-item" href="admission/Admission.html">Admission Procedure</a>
+                          <a class="dropdown-item" href="admission/faq.html">FAQs</a>
+                          <a class="dropdown-item" href="">Online Payment Link</a>
+         
+                      </div>
+                  </li>
+                  
+                  
+                  <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown-5" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          DEPARTMENTS
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown-5">
+                          <a class="dropdown-item" href="department/computer/computerdepartment.html">Computer Engineering</a>
+                          <a class="dropdown-item" href="department/Civil/civildepartment.html">Civil Engineering</a>
+                          <a class="dropdown-item" href="department/Mechanical/Deptmech.html">Mechanical Engineering</a>
+                          <a class="dropdown-item" href="department/Electrical/Deptele.html">Electrical Engineering</a>
+                          <a class="dropdown-item" href="department/IT/DeptIt.html">Information Technology</a>
+                          <a class="dropdown-item" href="department/AIDS/DeptAI.html">Artificial Intelligence & Data Science</a>
+                          <!-- <a class="dropdown-item" href="department">Electronics & Computer Engineering</a> -->
+                          <a class="dropdown-item" href="Appliedscience.html">Applied Science & Humanities</a>
+                          <a class="dropdown-item" href="department/Workshop deparment/workshop.html">Workshop</a>
+                          <a class="dropdown-item" href="department/Library/Library.html">Library</a>
+                      </div>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="TraningAndPlacement.html">T&P</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown-2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          ABOUT ERP
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown-2">
+                          <a class="dropdown-item" href="https://portal.vmedulife.com/public/auth/#/login/jit-nashik">ERP System</a>
+                          <a class="dropdown-item" href="Leave.html">Leave Management System</a>
+                      </div>
+                  </li>
+                  <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown-2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          REPORTS
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown-2">
+                          <a class="dropdown-item" href="reports/SSR.html">IQAC</a>
+                          <a class="dropdown-item" href="reports/NAAC.html">NAAC Cycle 1</a>
+                          <a class="dropdown-item" href="reports/AQAR.html">AQAR 22-23</a>
+                          <a class="dropdown-item" href="reports/NIRF.html">NIRF 23-24</a>
+                          <a class="dropdown-item" href="reports/Best.html">Best Practice</a>
+                      </div>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href=""></a>
+                  </li>
+              </ul>
+            </nav>
+
+          </div>
+
+          <div class="toggle-button d-inline-block d-lg-none"><a href="#" class="site-menu-toggle py-5 js-menu-toggle text-black"><span class="icon-menu h3"></span></a></div>
+
+        </div>
+      </div>
+
+    </header>
+
+    
+
+    <!-- home -->
+    <div class="homepage">
+        <h1 class="homepage-heading">BATHROOM INTERIOR</h1>
+    </div>
+
+    <!-- paragraph -->
+    <div class="container">
+        <h4 class="text-center mt-5">Dreaming of those spa-like bathrooms in hotels? We can give you the look you want! Browse through our stunning bathroom designs for some inspiration.</h4>
+    </div>
+
+    <!-- cards -->
+    <div class="container-fluid" data-aos="zoom-in-up">
+        <!-- 1 -->
+        <div class="row">
+          <div class="col-lg-6">
+            <a href="images/bathroom/bathroom10.jpg" style="text-decoration: none;">
+              <div class="card">
+                <img src="images/bathroom/bathroom10.jpg" class="card-img-top" alt="Image 1">
+                <div class="card-body">
+                  <h5 class="card-title">Modern Spacious Bathroom With Vanity</h5>
+             
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-6">
+            <a href="images/bathroom/bathroom2.jpg" style="text-decoration: none;">
+              <div class="card">
+                <img src="images/bathroom/bathroom2.jpg" class="card-img-top" alt="Image 2">
+                <div class="card-body">
+                  <h5 class="card-title">Contemporary Convenience Max Bathroom</h5>
+             
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <!-- 2 -->
+        <div class="row">
+            <div class="col-lg-6">
+              <a href="images/bathroom/bathroom3.jpg" style="text-decoration: none;">
+                <div class="card ">
+                  <img src="images/bathroom/bathroom3.jpg" class="card-img-top" alt="Image 1">
+                  <div class="card-body">
+                    <h5 class="card-title">Contemporary Spacious Bathroom</h5>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-lg-6">
+              <a href="images/bathroom/bathroom4.jpg" style="text-decoration: none;">
+                <div class="card">
+                  <img src="images/bathroom/bathroom4.jpg" class="card-img-top" alt="Image 2">
+                  <div class="card-body">
+                    <h5 class="card-title">Modern Spacious Bathroom With Vanity</h5>
+                  </div>
+                </div>
+              </a>
+            </div>
+        </div>
+        <!-- 3 -->
+        <div class="row">
+            <div class="col-lg-6">
+              <a href="images/bathroom/bathroom5.jpg" style="text-decoration: none;">
+                <div class="card">
+                  <img src="images/bathroom/bathroom5.jpg" class="card-img-top" alt="Image 1">
+                  <div class="card-body">
+                    <h5 class="card-title">Spacious Bathroom With Maximum Storage</h5>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-lg-6">
+              <a href="images/bathroom/bathroom6.jpg" style="text-decoration: none;">
+                <div class="card">
+                  <img src="images/bathroom/bathroom6.jpg" class="card-img-top" alt="Image 2">
+                  <div class="card-body">
+                    <h5 class="card-title">Contemporary Bathroom With Contrasting Palette</h5>
+                  </div>
+                </div>
+              </a>
+            </div>
+        </div>
+        <!-- 4 -->
+        <div class="row">
+            <div class="col-lg-6">
+              <a href="images/bathroom/bathroom7.jpg" style="text-decoration: none;">
+                <div class="card">
+                  <img src="images/bathroom/bathroom7.jpg" class="card-img-top" alt="Image 1">
+                  <div class="card-body">
+                    <h5 class="card-title">Modern Spacious Bathroom</h5>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-lg-6">
+              <a href="images/bathroom/bathroom8.jpg" style="text-decoration: none;">
+                <div class="card">
+                  <img src="images/bathroom/bathroom8.jpg" class="card-img-top" alt="Image 2">
+                  <div class="card-body">
+                    <h5 class="card-title">Compact, Modern Bathroom</h5>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+    </div>
+    <!-- phone icon -->
+    <!-- <div class="phone-icon">
+      <a href="tel:+919823646644" target="_blank" rel="noopener noreferrer">
+          <img src="images/phone.png" alt="phone">
+      </a>
+  </div> -->
+    <!-- WhatsApp Icon -->
+    <!-- <div class="whatsapp-icon">
+      <a href="https://wa.me/+919823646644" target="_blank" rel="noopener noreferrer">
+          <img src="images/WhatsApp.png" alt="WhatsApp">
+      </a>
+  </div>
+   arrow icon -->
+  <!-- <div class="arrow-icon">
+    
+        <a href="#"><img src="images/arrow.png" alt="arrow"></a>
+    </a>
+</div>  -->
+    <!-- footer -->
+   
+    <footer>
+      <div class="container" data-aos="fade-right">
+          <div class="row">
+              <div class="col-md-4">
+                  <h5>About JIT</h5>
+                  <p>Jawahar Education Society proudly brings top-tier engineering education to Nashik with the establishment of Jawahar Education Society's Institute of Technology, Management & Research, Nashik – widely recognized as JIT Nashik. Here, innovation meets excellence, shaping the leaders of tomorrow.</p>
+              </div>
+              <div class="col-md-4 " >
+                  <div class="row">
+                  <div class="col-sm-6">
+                  <h5>Quick Links</h5>                   
+                  <ul class="list-unstyled">
+                      <li><a href="index.html">Home</a></li>
+                      <li><a href="https://jitalumni.wordpress.com/">Blog</a></li>
+                      <li><a href="gallery.html">Glimpses</a></li>
+                      <li><a href="admission/faq.html">FAQs</a></li>
+                      <li><a href="CONTACT.html">Contact</a></li>
+                      <li><a href="sitemap.html">Website Sitemap</a></li>
+                  </ul>
+                  </div>
+                  <div class="col-sm-6">
+                      <h5>Facilities</h5>                   
+                  <ul class="list-unstyled">
+                      <li><a href="facilities/Academic.html">Academic Facilities</a></li>
+                      <li><a href="facilities/sports.html">Sports Facilities</a></li>
+                      <li><a href="facilities/health.html">Health Facilities</a></li>
+                      <li><a href="facilities/campus.html">Campus Facilities</a></li>
+                      <li><a href="facilities/innovation.html">Innovation Center</a></li>
+                      <li><a href="facilities/transport.html">Transport Facilities</a></li>
+                      
+                  </ul>
+                  </div>
+                  </div>
+              </div>
+              <div class="col-md-4">
+                  <h5>Contact Us</h5>
+                  <p>Email:  <a href="mailto:principaljitnashik@gmail.com" target="_blank">&nbsp;principaljitnashik@gmail.com</a></p>
+                  <p>Phone: <a href="tel:02532970077">&nbsp;0253-2970077</a>,<a href="tel:02532970078">&nbsp; 0253-2970078</a></p>
+                  <p>Address: <a href="https://maps.app.goo.gl/wD5wrzgvzNLYr32N6" target="_blank">&nbsp;JIT Nashik, Gangapur Road, Nashik.</a></p>
+                  <ul class="list-inline">
+                      <li class="list-inline-item"><a href="https://www.facebook.com/JITCOENSK?mibextid=ZbWKwL" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                      <!-- <li class="list-inline-item"><a href="#"><i class="fa fa-twitter"></i></a></li> -->
+                      <li class="list-inline-item"><a href="https://www.linkedin.com/in/jawahar-institute-technology-a9463a201/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                      <li class="list-inline-item"><a href="https://www.instagram.com/jesitmrn?igshid=NTc4MTIwNjQ2YQ%3D%3D" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                      <li class="list-inline-item"><a href="https://www.youtube.com/@JITNASHIK-xo7su" target="_blank"><i class="fa fa-youtube"></i></a></li>
+                  </ul>
+              </div>
+          </div>
+          <div class="text-center mt-4">
+              <img src="assets/img/index/jit-white-logo.png" alt="Footer Logo" class="footer-logo">
+          </div>
+      </div>
+      <div class="text-center mt-4 footer-bottom">
+          <p>&copy; 2024 Jawahar Education Society's Institute of Technology, Management & Research, Nashik. All rights reserved.</p>
+      </div>
+  </footer>
+  <script>
+    AOS.init({
+duration: 2000 // Duration in milliseconds
+});
+  </script>
+  <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.sticky.js"></script>
+    <script src="js/main.js"></script>
+
+  
+
+
+</body>
+</html>

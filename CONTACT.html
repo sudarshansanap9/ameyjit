@@ -1,0 +1,107 @@
+<!doctype html>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Contact Us - Responsive Page Design</title>
+    <link rel="shortcut icon" type="image/jpg" href="/images/news2.png"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap');
+    </style>
+    <link rel="stylesheet" href="Contact/style.css">
+    
+    </head>
+    <body>
+        <section>
+            <div class="container">
+                <div class="contactInfo"> 
+                    <div>
+                        <h2>Contact Info</h2>
+                        <ul class="info">
+                            <li><a href="https://www.google.com/maps/place/Jawahar+Education+Society's,+INSTITUTE+OF+TECHNOLOGY,+MANAGEMENT+AND+RESEARCH,+NASHIK/@20.0322795,73.5372823,12z/data=!4m10!1m2!2m1!1sjit!3m6!1s0x3bddedd75b257ee7:0xd607636433df8d5f!8m2!3d20.0322795!4d73.6897176!15sCgNqaXRaBSIDaml0kgEHY29sbGVnZZoBI0NoWkRTVWhOTUc5blMwVkpRMEZuU1VSUE1GODJYMVpuRUFF4AEA!16s%2Fg%2F11xh8p64r?entry=ttu" style="text-decoration: none;">
+                                <span><i class="fa fa-map-marker fa-lg" style="color: black;" ></i></span>
+                                <span>JIT Nashik, Gangapur Road,<br>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Nashik,
+                                    422222.</span>
+                                </span>
+                            </a>
+                            </li>
+                            <li>
+                                <span><i class="fa fa-envelope marker fa-lg" ></i></span>
+                                <!-- <span>nassosanagn@gmail.com</span> -->
+                                <span><a href = "mailto: jitnashik2012@gmail.com">jitnashik2012@gmail.com,
+                                    principaljitnashik@rediffmail.com</a></span>
+                            </li>
+                            <li>
+                                <span><i class="fa fa fa-phone marker fa-lg" ></i></span>
+                                <span>0253-2970077 <br>
+                                    7028300991, 8788003673, 7588069094</span>
+                            </li>
+
+                        </ul>
+                    </div>
+                    <ul class="sci">
+                       
+                            <li class="list-inline-item"><a href="https://www.facebook.com/JITCOENSK?mibextid=ZbWKwL" target="_blank"><i class="fa fa-facebook fa-lg" style="color: black;"></i></a></li>
+                            <!-- <li class="list-inline-item"><a href="#"><i class="fa fa-twitter"></i></a></li> -->
+                            <li class="list-inline-item"><a href="https://www.linkedin.com/in/jawahar-institute-technology-a9463a201/" target="_blank"><i class="fa fa-linkedin fa-lg"  style="color: black;"></i></a></li>
+                            <li class="list-inline-item"><a href="https://www.instagram.com/jesitmrn?igshid=NTc4MTIwNjQ2YQ%3D%3D" target="_blank"><i class="fa fa-instagram fa-lg"  style="color: black;"></i></a></li>
+                            <li class="list-inline-item"><a href="https://www.youtube.com/@JITNASHIK-xo7su" target="_blank"><i class="fa fa-youtube "  style="color: black;"></i></a></li>
+                     
+                    </ul>
+                </div>
+                <form action="submit.php" method="POST">
+                    <div class="contactForm">
+                        <h2>Send a Message</h2>
+                        <div class="formBox">
+                        <div class="inputBox w50">
+                            <label for="name">Name:</label><br>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="inputBox w50">
+                            <label for="email">Email:</label><br>
+                            <input type="email" id="email" name="email" required><br><br>
+                        </div>
+                        <div class="inputBox w50">
+                            <label for="message">Message:</label><br>
+        <textarea id="message" name="message" required></textarea>
+       </div>
+       <script src="https://www.google.com/recaptcha/api.js"></script>
+       <script>
+           function onSubmit(token) {
+             document.getElementById("demo-form").submit();
+           }
+         </script>
+          <div class="inputBox w100">
+         <button class="g-recaptcha" 
+         data-sitekey="6LdFJgQqAAAAAHrXsP6_D3WYFQCWgIAyfOs8g7wW" 
+         data-callback='onSubmit' 
+         data-action='submit' style="padding: 15px; border-radius: 15px; ">Submit</button>
+        </div>
+                        <!-- <div class="inputBox w50">
+                            <input type="text" required>
+                            <span>Mobile Number</span>
+                        </div>
+                        <div class="inputBox w100">
+                            <textarea required></textarea>
+                            <span>Write your message here...</span>
+                        </div>-->
+                        <br>
+                       
+                         
+                    </div>
+                </div>
+            </form>     
+                    
+             
+        </section>
+    </body>
+</html>
