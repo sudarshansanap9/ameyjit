@@ -1,345 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
-    
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jawahar Education Society</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"  />
-        
-    
-    
-        
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">    
-        <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"> -->
-        <!-- <link rel="stylesheet" href="assets/css/styles.css"> -->
-       
-        <!-- FEVICON -->
-        <link rel="icon" href="assets/img/index/fevicon.png" type="image/x-icon">
-        <link rel="stylesheet" type="text/css" href="css/style.css">
-       
-        
-        
-        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> 
-        <!-- Required meta tags -->
-        
-        
-      
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
-    
-        <link rel="stylesheet" href="fonts/icomoon/style.css">
-    
-        <link rel="stylesheet" href="css/owl.carousel.min.css">
-    
-        <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-        
-        <!-- Style -->
-        <link rel="stylesheet" href="css/style.css">
+    <title>Why JIT?</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/css/bootstrap.min.css">
     <style>
         body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f9f9f9;
-            color: #333;
-            line-height: 1.6;
+            font-family: 'Roboto', sans-serif;
         }
-        .jes .container {
-            max-width: 1200px;
-            margin: auto;
-            padding: 20px;
-        }
-        .jes .header {
+        .hero-section {
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('path-to-your-hero-image.jpg') no-repeat center center/cover;
+            color: #fff;
+            padding: 150px 0;
             text-align: center;
-            padding: 70px 20px;
-            background: url('./assets/img/index/4.JPG') no-repeat center center/cover;
-            color: white;
-            position: relative;
         }
-        .jes .header::after {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: rgba(0, 0, 0, 0.6);
-        }
-        .jes .header h1 {
-            font-size: 3em;
-            margin: 0;
-            position: relative;
-            z-index: 1;
-        }
-        .jes .header p {
-            font-size: 1.2em;
-            margin-top: 10px;
-            position: relative;
-            z-index: 1;
-            color: darkgray;
-        }
-        .jes .section {
-            background-color: white;
-            margin: 20px 0;
-            padding: 30px;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
-        }
-        .jes .section:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-        }
-        .jes .section h2 {
-            color: #900;
+        .hero-section h1 {
+            font-size: 3rem;
             margin-bottom: 20px;
         }
-        .jes .section p {
-            line-height: 1.8;
-            color: black;
+        .hero-section p {
+            font-size: 1.25rem;
         }
-        
-        @media (max-width: 768px) {
-            .jes .header h1 {
-                font-size: 2em;
-            }
-            .jes .header p {
-                font-size: 1em;
-            }
+        .content-section {
+            padding: 50px 15px;
+            background: #f8f9fa;
+        }
+        .content-section h2 {
+            color: #b71234; /* JIT's primary color */
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+        .content-section p, .content-section ul {
+            font-size: 1.125rem;
+            color: #333;
+        }
+        .content-section ul {
+            padding-left: 20px;
+        }
+        .content-section ul li {
+            margin-bottom: 10px;
+        }
+        .content-section .highlight {
+            background: #b71234;
+            color: #fff;
+            padding: 10px 15px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+        .card {
+            border: none;
+            margin-bottom: 20px;
+        }
+        .card .card-body {
+            background: #fff;
+            border-radius: 5px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 30px;
         }
     </style>
 </head>
 <body>
-    <div class="site-mobile-menu site-navbar-target">
-        <div class="site-mobile-menu-header">
-          <div class="site-mobile-menu-close mt-3">
-            <span class="icon-close2 js-menu-toggle"></span>
-          </div>
-        </div>
-        <div class="site-mobile-menu-body"></div>
-      </div>
 
-
-      <div class="top-bar" data-aos="fade-right">
-        <div class="container">
-          <div class="row"  style="font-size: 15px;">
-            <div class="col-12">
-              <a href="mailto:principaljitnashik@gmail.comm" class=""><span class="mr-2  icon-envelope-open-o"></span> <span class="d-none d-md-inline-block"> principaljitnashik@gmail.com</span></a>
-              <span class="mx-md-2 d-inline-block"></span>
-              <a href="tel:0253-2970077" class=""><span class="mr-2  icon-phone"></span> <span class="d-none d-md-inline-block"> 0253-2970077</span></a>
-
-            
-              <div class="float-right" style="font-size: 13px;">
-
-                <a href="CONTACT.html" class="">CONTACT |</a>
-                
-                <a href="alumni.html" class="">ALUMNI |</a>
-                
-                <a target="_blank" href="gallery.html" class="">GALLERY</a>
-                
-                
-              </div>
-
-            </div>
-
-          </div>
-
-        </div>
-      </div>
-
-      <header class="site-navbar js-sticky-header site-navbar-target" role="banner">
-
-        <div class="container" >
-          <div class="row align-items-center position-relative" >
-
-
-            <div class="site-logo">
-              <a href="index.html" class="text-black"><img src="./assets/img/index/logo-removebg-preview.png" alt="Logo" width="150px" height="70px"></a>
-            </div>
-
-            <div class="col-12" >
-              <nav class="site-navigation text-right ml-auto " role="navigation">
-
-                <ul class="site-menu main-menu js-clone-nav ml-auto d-none d-lg-block">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">HOME</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown-2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            ABOUT
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown-2" >
-                            <a class="dropdown-item" href="about/aboutjes.html">About JES</a>
-                            <a class="dropdown-item" href="about/aboutjit.html">About JIT</a>
-                            <a class="dropdown-item" href="about/vision.html">Vision and Mission</a>
-                            <a class="dropdown-item" href="about/core.html">Core Values</a>
-                            <a class="dropdown-item" href="about/principal.html">Principal Desk</a>
-                            <a class="dropdown-item" href="about/committee.html">Committee</a>
-                        </div>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown-2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            ADMISSION
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown-2">
-                            <a class="dropdown-item" href="admission/firstyear.html">First Year Engineering</a>
-                            <a class="dropdown-item" href="admission/second.html">DSY (Against Vacancies)</a>
-                            <a class="dropdown-item" href="admission/Admission.html">Admission Procedure</a>
-                            <a class="dropdown-item" href="admission/faq.html">FAQs</a>
-                            <a class="dropdown-item" href="">Online Payment Link</a>
-           
-                        </div>
-                    </li>
-                    
-                    
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown-5" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            DEPARTMENTS
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown-5">
-                            <a class="dropdown-item" href="department/computer/computerdepartment.html">Computer Engineering</a>
-                            <a class="dropdown-item" href="department/Civil/civildepartment.html">Civil Engineering</a>
-                            <a class="dropdown-item" href="department/Mechanical/Deptmech.html">Mechanical Engineering</a>
-                            <a class="dropdown-item" href="department/Electrical/Deptele.html">Electrical Engineering</a>
-                            <a class="dropdown-item" href="department/IT/DeptIt.html">Information Technology</a>
-                            <a class="dropdown-item" href="department/AIDS/DeptAI.html">Artificial Intelligence & Data Science</a>
-                            <!-- <a class="dropdown-item" href="department">Electronics & Computer Engineering</a> -->
-                            <a class="dropdown-item" href="Appliedscience.html">Applied Science & Humanities</a>
-                            <a class="dropdown-item" href="department/Workshop deparment/workshop.html">Workshop</a>
-                            <a class="dropdown-item" href="department/Library/Library.html">Library</a>
-                        </div>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="TraningAndPlacement.html">T&P</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown-2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            ABOUT ERP
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown-2">
-                            <a class="dropdown-item" href="https://portal.vmedulife.com/public/auth/#/login/jit-nashik">ERP System</a>
-                            <a class="dropdown-item" href="Leave.html">Leave Management System</a>
-                        </div>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown-2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            REPORTS
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown-2">
-                            <a class="dropdown-item" href="reports/SSR.html">IQAC</a>
-                            <a class="dropdown-item" href="reports/NAAC.html">NAAC Cycle 1</a>
-                            <a class="dropdown-item" href="reports/AQAR.html">AQAR 22-23</a>
-                            <a class="dropdown-item" href="reports/NIRF.html">NIRF 23-24</a>
-                            <a class="dropdown-item" href="reports/Best.html">Best Practice</a>
-                        </div>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href=""></a>
-                    </li>
-                </ul>
-              </nav>
-
-            </div>
-
-            <div class="toggle-button d-inline-block d-lg-none"><a href="#" class="site-menu-toggle py-5 js-menu-toggle text-black"><span class="icon-menu h3"></span></a></div>
-
-          </div>
-        </div>
-
-      </header>
-    <div class="jes">
-    <div class="container-fluid">
-        <div class="header">
-            <h1>Welcome To Jawahar Education Society</h1>
-            <p>Shaping the Future Through Quality Education</p>
-        </div>
-    </div>
+<section class="hero-section">
     <div class="container">
-        <div class="section">
-            <h2>About Trust</h2>
-            <p>Jawahar Education Society, established in the year 1970, is part of the renowned Jawahar Group that runs 50 schools, 3 post-graduate colleges, 3 engineering colleges, and a medical college with an 800-bed hospital in Maharashtra, shaping the lives of more than 20,000 students every year. Late Annasaheb Chudaman Patil, who was a passionate advocate of basic education and rural health services, is the inspiration behind the group.</p>
-        </div>
-        <div class="section">
-            <h2>About the Institute</h2>
-            <p>Jawahar Education Society's Institute of Technology, Management, and Research, Nashik, established in the year 2012, aims at providing quality technical education in Civil, Computer, IT, AIDS, Electrical, and Mechanical Engineering streams. The institute is getting shaped under the able guidance of Hon. Rohidasji Patil, Hon. Vinay Patil, and Hon. Kunal Patil.</p>
-        </div>
+        <h1>Why JIT?</h1>
+        <p>Empowering students to thrive in a competitive world.</p>
     </div>
-    
-    </div>
+</section>
 
-    <footer>
-        <div class="container" data-aos="fade-right">
-            <div class="row">
-                <div class="col-md-4">
-                    <h5>About JIT</h5>
-                    <p>Jawahar Education Society proudly brings top-tier engineering education to Nashik with the establishment of Jawahar Education Society's Institute of Technology, Management & Research, Nashik – widely recognized as JIT Nashik. Here, innovation meets excellence, shaping the leaders of tomorrow.</p>
-                </div>
-                <div class="col-md-4 " >
-                    <div class="row">
-                    <div class="col-sm-6">
-                    <h5>Quick Links</h5>                   
-                    <ul class="list-unstyled">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="https://jitalumni.wordpress.com/">Blog</a></li>
-                        <li><a href="gallery.html">Glimpses</a></li>
-                        <li><a href="admission/faq.html">FAQs</a></li>
-                        <li><a href="CONTACT.html">Contact</a></li>
-                        <li><a href="sitemap.html">Website Sitemap</a></li>
-                    </ul>
+<section class="content-section">
+    <div class="container">
+        <div class="highlight">
+            <h2>About JIT</h2>
+            <p>Since its inception in 2012, Jawahar Education Society’s Institute of Technology, Management & Research (JIT, Nashik) has been dedicated to nurturing future leaders. We strive to create an environment where students thrive in the face of competition, equipping them with the skills and knowledge to excel in their careers and beyond.</p>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h2>Our Approach</h2>
+                        <ul>
+                            <li>Providing the best environment for engineering students in terms of academics, industry-oriented training, sports, co-curricular & extracurricular activities, cultural activities, and various competitions.</li>
+                            <li>Creating aesthetically sensitive, socially committed, and technologically competent engineers.</li>
+                        </ul>
                     </div>
-                    <div class="col-sm-6">
-                        <h5>Facilities</h5>                   
-                    <ul class="list-unstyled">
-                        <li><a href="facilities/Academic.html">Academic Facilities</a></li>
-                        <li><a href="facilities/sports.html">Sports Facilities</a></li>
-                        <li><a href="facilities/health.html">Health Facilities</a></li>
-                        <li><a href="facilities/campus.html">Campus Facilities</a></li>
-                        <li><a href="facilities/innovation.html">Innovation Center</a></li>
-                        <li><a href="facilities/transport.html">Transport Facilities</a></li>
-                        
-                    </ul>
-                    </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <h5>Contact Us</h5>
-                    <p>Email:  <a href="mailto:principaljitnashik@gmail.com" target="_blank">&nbsp;principaljitnashik@gmail.com</a></p>
-                    <p>Phone: <a href="tel:02532970077">&nbsp;0253-2970077</a>,<a href="tel:02532970078">&nbsp; 0253-2970078</a></p>
-                    <p>Address: <a href="https://maps.app.goo.gl/wD5wrzgvzNLYr32N6" target="_blank">&nbsp;JIT Nashik, Gangapur Road, Nashik.</a></p>
-                    <ul class="list-inline">
-                        <li class="list-inline-item"><a href="https://www.facebook.com/JITCOENSK?mibextid=ZbWKwL" target="_blank"><i class="fa fa-facebook"></i></a></li>
-                        <!-- <li class="list-inline-item"><a href="#"><i class="fa fa-twitter"></i></a></li> -->
-                        <li class="list-inline-item"><a href="https://www.linkedin.com/in/jawahar-institute-technology-a9463a201/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-                        <li class="list-inline-item"><a href="https://www.instagram.com/jesitmrn?igshid=NTc4MTIwNjQ2YQ%3D%3D" target="_blank"><i class="fa fa-instagram"></i></a></li>
-                        <li class="list-inline-item"><a href="https://www.youtube.com/@JITNASHIK-xo7su" target="_blank"><i class="fa fa-youtube"></i></a></li>
-                    </ul>
                 </div>
             </div>
-            <div class="text-center mt-4">
-                <img src="assets/img/index/jit-white-logo.png" alt="Footer Logo" class="footer-logo">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h2>Our Leadership</h2>
+                        <p>Academics at JIT, Nashik are disciplined and well conducted under the strict supervision of Hon. Principal Dr. M.V. Bhatkar, and all Heads of Departments.</p>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="text-center mt-4 footer-bottom">
-            <p>&copy; 2024 Jawahar Education Society's Institute of Technology, Management & Research, Nashik. All rights reserved.</p>
-        </div>
-    </footer>
-    
-    <script>
-      AOS.init({
-  duration: 2000 // Duration in milliseconds
-  });
-    </script>
-    
-  
-     
-      <script src="js/jquery-3.3.1.min.js"></script>
-      <script src="js/popper.min.js"></script>
-      <script src="js/bootstrap.min.js"></script>
-      <script src="js/jquery.sticky.js"></script>
-      <script src="js/main.js"></script>
+    </div>
+</section>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

@@ -680,7 +680,9 @@ footer .text-center {
   margin: auto;
   display: block;
   width: 80%;
-  max-width: 700px;
+  max-width: 650px;
+  height: 550px;
+  border-radius: 10px;
 }
 
 /* Caption of Modal Image */
