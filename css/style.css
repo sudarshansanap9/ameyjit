@@ -675,6 +675,13 @@ footer .text-center {
   background-color: rgba(0,0,0,0.9); 
 }
 
+@media (max-width: 768px) {
+  .modal img{
+    height: 40%;
+    width: 88%;
+  }
+}
+
 /* Modal Content (Image) */
 .modal-content {
   margin: auto;
