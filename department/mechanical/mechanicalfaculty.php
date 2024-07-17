@@ -166,8 +166,8 @@
 <?php include('../header.php') ?>
 
     <div class="wrapper">
-    <?php include('computersidebar.php') ?>
-    <div class="main p-3 box4">
+    <?php include('mechanicalsidebar.php') ?>
+        <div class="main p-3 box4">
             <div class="slide-container swiper">
                 <div class="slide-content">
                     <div class="card-wrapper swiper-wrapper">
@@ -395,7 +395,7 @@
                 <div class="swiper-button-prev swiper-navBtn"></div>
                 <div class="swiper-pagination"></div>
             </div>
-        </div>
+    </div>
     </div>
 
     

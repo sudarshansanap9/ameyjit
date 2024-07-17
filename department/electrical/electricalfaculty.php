@@ -7,22 +7,31 @@
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <link rel="stylesheet" href="assets/css/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css">
     <link href="https://cdn.lineicons.com/4.0/lineicons.css" rel="stylesheet" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous"> -->
         <link rel="stylesheet" href="css/swiper-bundle.min.css">
-
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"  />
         <!-- CSS -->
-        <!-- <link rel="stylesheet" href="./css/style.css"> -->
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+        <link rel="stylesheet" href="fonts/icomoon/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">   
+        <link rel="stylesheet" href="css/owl.carousel.min.css">
+        <link rel="stylesheet" href="css/owl.carousel.min.css">
+        
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <style>
+        a{
+            text-decoration: none;
+        }
       .box4{
   min-height: 100vh;
   display: flex;
@@ -149,295 +158,16 @@
     display: none;
   }
 }
-.header-content {
-  display: flex;
-  align-items: center;
-  padding: 20px;
-}
-.header-logo {
-  max-width: 150px;
-  height: auto;
-  flex-shrink: 0;
-}
-.header-text {
-  text-align: center;
-  flex-grow: 1;
-  margin: 0 20px;
-}
-body {
-  overflow-x: hidden;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
-}
-/* footer css */
-.footer-top {
-  padding: 40px 0;
-  background-color: #333;
-  color: #fff;
-}
-.footer-title h4 {
-  margin-bottom: 20px;
-}
 
-.about-footer ul, .page-more-info ul {
-  list-style: none;
-  padding: 0;
-}
-.about-footer ul li, .page-more-info ul li {
-  margin-bottom: 10px;
-}
-.footer-social {
-  list-style: none;
-  padding: 0;
-  display: flex;
-  gap: 10px;
-}
-.footer-logo {
-  margin-top: 20px;
-  max-width: 150px;
-}
-.footer-bottom {
-  padding: 20px 0;
-  background-color: #222;
-  color: #aaa;
-}
-.footer-bottom p, .footer-bottom a {
-  margin: 0;
-  color: #aaa;
-}
-.footer-bottom a:hover {
-  color: #fff;
-}
-footer {
-  background-color: #343a40;
-  color: white;
-  padding: 40px 0;
-}
-footer h5 {
-  font-size: 18px;
-  margin-bottom: 20px;
-}
-footer p, footer ul, footer a {
-  color: #ccc;
-  font-size: 14px;
-}
-footer a:hover {
-  color: white;
-}
-footer .list-inline {
-  margin: 0;
-  padding: 0;
-  padding-left: 50px;
-}
-footer .list-inline-item {
-  margin-right: 10px;
-}
-footer .list-inline-item a {
-  color: #ccc;
-  font-size: 20px;
-}
-footer .list-inline-item a:hover {
-  color: white;
-}
-footer .text-center {
-  border-top: 1px solid #555;
-  padding-top: 20px;
-}
-.custom-header-content {
-  padding: 20px;
-}
-.custom-header-logo {
-  max-width: 100px;
-  height: auto;
-  flex-shrink: 0;
-}
-.custom-header-text {
-  text-align: center;
-  flex-grow: 1;
-}
-@media (max-width: 768px) {
-  .custom-header-text h4, .custom-header-text h3, .custom-header-text p {
-      font-size: 14px;
-  }
-  .custom-header-logo {
-      max-width: 70px;
-  }
-  .custom-header-content {
-      text-align: center;
-  }
-}
-/* sidebar css */
-
-.wrapper {
-  display: flex;
-}
-
-.main {
-  min-height: 100vh;
-  width: 100%;
-  overflow: hidden;
-  transition: all 0.35s ease-in-out;
-  background-color: #fafbfe;
-}
-
-#sidebar {
-  width: 70px;
-  min-width: 70px;
-  z-index: 1000;
-  transition: all .25s ease-in-out;
-  background-color: gray;
-  display: flex;
-  flex-direction: column;
-}
-
-#sidebar.expand {
-  width: 260px;
-  min-width: 260px;
-}
-
-.toggle-btn {
-  background-color: transparent;
-  cursor: pointer;
-  border: 0;
-  padding: 1rem 1.5rem;
-}
-
-.toggle-btn i {
-  font-size: 1.5rem;
-  color: #FFF;
-}
-
-.sidebar-logo {
-  margin: auto 0;
-}
-
-.sidebar-logo a {
-  text-decoration: none;
-  color: #900;
-  font-size: 1.15rem;
-  font-weight: 600;
-}
-
-
-#sidebar:not(.expand) .sidebar-logo,
-#sidebar:not(.expand) a.sidebar-link span {
-  display: none;
-}
-
-.sidebar-nav {
-  padding: 2rem 0;
-  flex: 1 1 auto;
-}
-
-a.sidebar-link {
-  padding: .625rem 1.625rem;
-  color: rgba(0,0,0,0.8);
-  text-decoration: none;
-  display: block;
-  font-size: 0.9rem;
-  white-space: nowrap;
-  border-left: 3px solid transparent;
-}
-
-a.sidebar-link:hover {
-  color: white;
-}
-
-.sidebar-link i {
-  font-size: 1.1rem;
-  margin-right: .75rem;
-}
-
-a.sidebar-link:hover {
-  background-color: rgba(255, 255, 255, .075);
-  border-left: 3px solid #3b7ddd;
-}
-
-.sidebar-item {
-  position: relative;
-}
-
-#sidebar:not(.expand) .sidebar-item .sidebar-dropdown {
-  position: absolute;
-  top: 0;
-  left: 70px;
-  background-color: #0e2238;
-  padding: 0;
-  min-width: 15rem;
-  display: none;
-}
-
-#sidebar:not(.expand) .sidebar-item:hover .has-dropdown+.sidebar-dropdown {
-  display: block;
-  max-height: 15em;
-  width: 100%;
-  opacity: 1;
-}
-
-#sidebar.expand .sidebar-link[data-bs-toggle="collapse"]::after {
-  border: solid;
-  border-width: 0 .075rem .075rem 0;
-  content: "";
-  display: inline-block;
-  padding: 2px;
-  position: absolute;
-  right: 1.5rem;
-  top: 1.4rem;
-  transform: rotate(-135deg);
-  transition: all .2s ease-out;
-}
-
-#sidebar.expand .sidebar-link[data-bs-toggle="collapse"].collapsed::after {
-  transform: rotate(45deg);
-  transition: all .2s ease-out;
-}
-/* navbar css */
-.navbar {
-          
-          background-color: #900 !important; /* Set navbar background color */
-        }
-        .navbar-nav .nav-link {
-          color: #fff !important; /* Set navbar link text to white */
-        }
-        .navbar-nav .dropdown-menu {
-          background-color: #900; /* Matching background for dropdown */
-        }
-        .navbar-nav .dropdown-item {
-          background-color: #900;
-          color: #fff !important; /* White text for dropdown items */
-        }
-        .navbar-nav .dropdown-item:hover {
-          background-color: #fff;
-          color: #900 !important; /* White text for dropdown items */
-        }
-        .navbar-toggler {
-          border-color: #fff; /* White border for toggle button */
-        }
-        .navbar-toggler-icon {
-          background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
-        }
-        
-        html {
-          overflow-x: hidden;
-        }
-/* for all code */
-a {
-  text-decoration: none;
-}
-
-li {
-  list-style: none;
-}  
 
     </style>
 </head>
 <body>
 <?php include('../header.php') ?>
+
     <div class="wrapper">
     <?php include('electricalsidebar.php') ?>
-        <div class="main p-3 box4">
+    <div class="main p-3 box4">
             <div class="slide-container swiper">
                 <div class="slide-content">
                     <div class="card-wrapper swiper-wrapper">
@@ -694,13 +424,7 @@ li {
             showSlides();
         }
     </script>
-    <script>
-        const hamBurger = document.querySelector(".toggle-btn");
-
-hamBurger.addEventListener("click", function () {
-  document.querySelector("#sidebar").classList.toggle("expand");
-});
-    </script>
+    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
     crossorigin="anonymous"></script>
@@ -708,5 +432,18 @@ hamBurger.addEventListener("click", function () {
 
     <!-- JavaScript -->
     <script src="js/script.js"></script>
+    
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery.sticky.js"></script>
+        <script src="js/main.js"></script>
+        <script>
+        const hamBurger = document.querySelector(".toggle-btn");
+        hamBurger.addEventListener("click", function () {
+            document.querySelector("#sidebar").classList.toggle("expand");
+        });
+    </script>
 </body>
 </html>

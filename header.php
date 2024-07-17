@@ -89,7 +89,7 @@
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown-5">
                             <a class="dropdown-item" href="department/computer/computerdepartment.php">Computer Engineering</a>
                             <a class="dropdown-item" href="department/civil/civildepartment.php">Civil Engineering</a>
-                            <a class="dropdown-item" href="department/mechanical//mechanicaldepartment.php">Mechanical Engineering</a>
+                            <a class="dropdown-item" href="department/mechanical/mechanicaldepartment.php">Mechanical Engineering</a>
                             <a class="dropdown-item" href="department/electrical/electricaldepartment.php">Electrical Engineering</a>
                             <a class="dropdown-item" href="department/IT/ITdepartment.php">Information Technology</a>
                             <a class="dropdown-item" href="department/aids/aidsdepartment.php">Artificial Intelligence & Data Science</a>

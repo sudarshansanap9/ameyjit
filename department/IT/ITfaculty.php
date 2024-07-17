@@ -166,7 +166,7 @@
 <?php include('../header.php') ?>
 
     <div class="wrapper">
-    <?php include('computersidebar.php') ?>
+    <?php include('ITsidebar.php') ?>
     <div class="main p-3 box4">
             <div class="slide-container swiper">
                 <div class="slide-content">

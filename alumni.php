@@ -3,7 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>JIT Nashik</title>
+  <title>Jawahar Education Society's Institute of Technology, Management & Research, Nashik</title>
+  <link rel="icon" href="assets/img/index/fevicon.png" type="image/x-icon">
   
   
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
@@ -12,8 +13,6 @@
   
 
 
-  <link rel="icon" type="image/x-icon" href="assets/img/index/fevicon.png">
-  
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">    
   <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"> -->
   <!-- <link rel="stylesheet" href="assets/css/styles.css"> -->

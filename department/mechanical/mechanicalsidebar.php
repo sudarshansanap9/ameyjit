@@ -10,34 +10,34 @@
             </div>
             <ul class="sidebar-nav">
                 <li class="sidebar-item">
-                    <a href="mechanicaldepartment.html" class="sidebar-link">
+                    <a href="mechanicaldepartment.php" class="sidebar-link">
                         <i class="fa-solid fa-house"></i>
                         <span>Home</span>
                     </a>
                 </li>
                 
                 <li class="sidebar-item">
-                    <a href="mechanicalaboutHOD.html" class="sidebar-link">
+                    <a href="mechanicalaboutHOD.php" class="sidebar-link">
                         <i class="fa-solid fa-user"></i>
                         <span>About HOD</span>
                     </a>
                 </li>
                 
                 <li class="sidebar-item">
-                    <a href="mechanicalfaculty.html" class="sidebar-link">
+                    <a href="mechanicalfaculty.php" class="sidebar-link">
                         <i class="fa-solid fa-users"></i>
                         <span>Faculty</span>
                     </a>
                 </li>
                 
                 <li class="sidebar-item">
-                    <a href="mechanicalseminar.html" class="sidebar-link">
+                    <a href="mechanicalseminar.php" class="sidebar-link">
                         <i class="fa-solid fa-person-chalkboard"></i>
                         <span>Seminar and Workshop</span>
                     </a>
                 </li>
                 <li class="sidebar-item">
-                    <a href="mechanicallaboratory.html" class="sidebar-link">
+                    <a href="mechanicallaboratory.php" class="sidebar-link">
                         <i class="fa-solid fa-flask-vial"></i>
                         <span>Laboratory</span>
                     </a>
