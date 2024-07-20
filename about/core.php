@@ -38,7 +38,11 @@
     <!-- Style -->
     <link rel="stylesheet" href="../css/style.css">
 
-    
+    <style>
+        .card-text{
+            color: black;
+        }
+    </style>
   </head>
   <body>
     
@@ -46,14 +50,14 @@
       <div class="container">
         <div class="headerr text-center text-white">
             <h1>Institute Core Values</h1>
-            <p style="color: #900;">Shaping the Future Through Quality Education</p>
+            <h3 style="color: #900; "><b>Shaping the Future Through Quality Education</b></h3>
         </div>
         <div class="row">
             <div class="col-md-6 mb-4">
                 <div class="card section">
                     <div class="card-body">
                         <h2 class="card-title" style="color: #900;">Excellence</h2>
-                        <p class="card-text">Excellence is internal, contagious, and a way of life at our institute. We believe that excellence can be achieved through continuous processes, quality staffing, state-of-the-art facilities, and exceptional programs and services. We promote continuous improvement, encourage interdepartmental collaboration, and foster creativity, innovation, and risk-taking among students and faculty. A culture of excellence permeates all academic and non-academic areas.</p>
+                        <p class="card-text" >Excellence is internal, contagious, and a way of life at our institute. We believe that excellence can be achieved through continuous processes, quality staffing, state-of-the-art facilities, and exceptional programs and services. We promote continuous improvement, encourage interdepartmental collaboration, and foster creativity, innovation, and risk-taking among students and faculty. A culture of excellence permeates all academic and non-academic areas.</p>
                     </div>
                 </div>
             </div>

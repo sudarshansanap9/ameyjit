@@ -73,7 +73,7 @@
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown-2">
                             <a class="dropdown-item" href="../../admission/firstyear.php">First Year Engineering</a>
-                            <a class="dropdown-item" href="../../admission/second.php">DSY (Against Vacancies)</a>
+                            <a class="dropdown-item" href="../../admission/second.php">DSE (Against Vacancies)</a>
                             <a class="dropdown-item" href="../../admission/Admission.php">Admission Procedure</a>
                             <a class="dropdown-item" href="../../admission/faq.php">FAQs</a>
                             <a class="dropdown-item" target="_blank" href="https://onlinesbi.sbi/sbicollect/">Online Payment Link</a>

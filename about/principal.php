@@ -37,6 +37,16 @@
     <!-- Style -->
     <link rel="stylesheet" href="../css/style.css">
 
+    <style>
+        .id-card-post, .id-card-text, .message-card-body{
+            color: black;
+            font-size: large;
+        }
+        .{
+            color: black;
+            font-size: large;
+        }
+    </style>
     
   </head>
   <body>
@@ -77,7 +87,7 @@
                         <div class="col-md-12">
                             <p style="padding: 10px;color: rgb(22, 21, 21);">Dear Students,
                                 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The importance of education in the life of an individual cannot be overstated. It shapes individuals in their formative years and imbues them with values that would govern all their choices in life. It is said ‘If you are planning for a year, sow rice; if you are planning for a decade, plant trees; if you are planning for a lifetime, educate people’. Indeed, one can even say that the quality of education will determine the destiny of the nation. Education does not mean providing answers. It means equipping the pupil with the means to find the answers for himself and within himself. Education empowers students to discover themselves – who they are as people. Our faculty at JIT will provide all the necessary support to the students by channelizing their resources and efforts to generate civilized and productive human capital for serving the nation. JIT has world-class holistic infrastructure and we are committed not only to maintain our impeccable image and highest standards, but also to carry them forward to new heights. In my experience, I have seen students with an unparalleled knowledge base, vibrant dynamism, an acute consciousness about the world around them, a focused ambition and sustained commitment. I am fortunate to have an experienced and committed team. I, along with my team of silent workers and dedicated faculty, intend to build on this strong foundation and continue to raise the standards of education in our country. My aim is not only to be an able administrator but also to be a friend, philosopher and guide to students, one they can count on and trust at all times. I assure you that my doors will always be open to the students and their parents for any help, support or guidance.</p>
-                            <p style="padding: 10px;"><strong style="color: black;">Dr. M. V. Bhatkar</strong><br>Principal of JIT Nashik <br>Ph. D. (IIT Bombay)</p>
+                            <p style="padding: 10px;color: black;"><strong style="color: black;">Dr. M. V. Bhatkar</strong><br>Principal of JIT Nashik <br>Ph. D. (IIT Bombay)</p>
                         </div>
                     </div>
                 </div>

@@ -103,6 +103,7 @@
             color: black;
         }
         
+        
         @media (max-width: 768px) {
             .jes .header h1 {
                 font-size: 2em;
@@ -125,11 +126,11 @@
     <div class="container">
         <div class="section">
             <h2>About Trust</h2>
-            <p>Jawahar Education Society, established in the year 1970, is part of the renowned Jawahar Group that runs 50 schools, 3 post-graduate colleges, 3 engineering colleges, and a medical college with an 800-bed hospital in Maharashtra, shaping the lives of more than 20,000 students every year. Late Annasaheb Chudaman Patil, who was a passionate advocate of basic education and rural health services, is the inspiration behind the group.</p>
+            <p style="font-size:x-large;">Jawahar Education Society, established in the year 1970, is part of the renowned Jawahar Group that runs 50 schools, 3 post-graduate colleges, 3 engineering colleges, and a medical college with an 800-bed hospital in Maharashtra, shaping the lives of more than 20,000 students every year. Late Annasaheb Chudaman Patil, who was a passionate advocate of basic education and rural health services, is the inspiration behind the group.</p>
         </div>
         <div class="section">
             <h2>About the Institute</h2>
-            <p>Jawahar Education Society's Institute of Technology, Management, and Research, Nashik, established in the year 2012, aims at providing quality technical education in Civil, Computer, IT, AIDS, Electrical, and Mechanical Engineering streams. The institute is getting shaped under the able guidance of Hon. Rohidasji Patil, Hon. Vinay Patil, and Hon. Kunal Patil.</p>
+            <p style="font-size:x-large;">Jawahar Education Society's Institute of Technology, Management, and Research, Nashik, established in the year 2012, aims at providing quality technical education in Civil, Computer, IT, AIDS, Electrical, and Mechanical Engineering streams. The institute is getting shaped under the able guidance of Hon. Rohidasji Patil, Hon. Vinay Patil, and Hon. Kunal Patil.</p>
         </div>
     </div>
     

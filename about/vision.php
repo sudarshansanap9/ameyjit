@@ -46,7 +46,7 @@
     <?php include('header.php') ?>
       <h1 class="text-center pt-3 pb-3 p-0">Visionary Direction</h1>
 <div class="combine-model" data-aos="zoom-in-up">
-    <div class="container2 text-center">
+    <div class="container2" style="justify-content: space-evenly;">
         <div class="box3">
             <h2>Mission</h2>
             <h3>Infrastructure</h3>
