@@ -45,7 +45,8 @@
 
     
   </head>
-  <body>
+  <body> 
+  <?php include('header.php') ?>
     <!-- phone icon -->
     <div class="phone-icon">
         <a href="tel:+918788003673" target="_blank" rel="noopener noreferrer">
@@ -94,22 +95,26 @@
         }
     </script>
 
-    <?php include('header.php') ?>
+    
       <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
         </ol>
         <div class="carousel-inner" >
             <div class="carousel-item active">
-                <img class="d-block w-100" src="assets/img/index/ab.jpg" alt="First slide">
+                <img class="d-block w-100" src="assets/img/front/2.jpg" alt="First slide">
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100" src="assets/img/index/bc.jpg" alt="Second slide">
+                <img class="d-block w-100" src="assets/img/front/1.jpg" alt="Second slide">
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100" src="assets/img/index/ac.jpg" alt="Third slide">
+                <img class="d-block w-100" src="assets/img/front/3.jpg" alt="Third slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="assets/img/front/4.jpg" alt="Forth slide">
             </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -165,19 +170,19 @@
           <div class="col-md-3 left-column">
               <P>IMPORTANT LINKS</P>
               <ul class="nav flex-column">
-                  <li class="nav-item"><a class="nav-link" href="Importantlink/academiccalendar.html" target="_blank">Academic Calendar</a></li>
-                  <li class="nav-item"><a class="nav-link" href="Importantlink/aicte.html" target="_blank">AICTE EoA</a></li>
-                  <li class="nav-item"><a class="nav-link" href="Importantlink/codeofconduct.html" target="_blank">Code of Conduct</a></li>
+                  <li class="nav-item"><a class="nav-link" href="Importantlink/academiccalendar.php" >Academic Calendar</a></li>
+                  <li class="nav-item"><a class="nav-link" href="Importantlink/aicte.php" >AICTE EoA</a></li>
+                  <li class="nav-item"><a class="nav-link" href="Importantlink/codeofconduct.php" >Code of Conduct</a></li>
                   <li class="nav-item"><a class="nav-link" href="Importantlink/Student Rules and Regulations.pdf" target="_blank">Students Rules and Regulation</a></li>
                   <li class="nav-item"><a class="nav-link" href="Importantlink/Service Rules and Regulations.pdf" target="_blank">Service Rules and Regulation</a></li>
-                  <li class="nav-item"><a class="nav-link" href="Importantlink/Grievance.html" target="_blank">Grievance</a></li>
-                  <li class="nav-item"><a class="nav-link" href="download/download.html" target="_blank">Download</a></li>
+                  <li class="nav-item"><a class="nav-link" href="Importantlink/Grievance.php" >Grievance</a></li>
+                  <li class="nav-item"><a class="nav-link" href="download/download.php" >Download</a></li>
 
               </ul>
           </div>
           <div class="col-md-6 middle-column">
               <div class="video-container">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/2Ov6Nht0Bw0?si=FfXSr8mJo8JL6c42" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/ETR0Elqmx3s?si=Xa-Rqh1xYPMmHQVq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
               </div>
           </div>
           <div class="col-md-3 right-column">
